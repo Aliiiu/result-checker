@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { TbDownload } from 'react-icons/tb';
 import AcademicTable from './AcademicTable';
 import Behaviour from './Behaviour';

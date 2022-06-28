@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import data from '../dummyData.json';
 
 const AcademicTable = () => {
-	const [rawData, setRawData] = useState(data);
+	const [rawData] = useState(data);
 	return (
 		<table className='table-auto w-full table-bordered'>
 			<thead>
