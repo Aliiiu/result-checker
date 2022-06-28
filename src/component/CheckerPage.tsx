@@ -1,9 +1,13 @@
+import { useEffect } from 'react';
 import { TbDownload } from 'react-icons/tb';
 import AcademicTable from './AcademicTable';
 import Behaviour from './Behaviour';
 import Skills from './Skills';
 
 const CheckerPage = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<div className='px-[210px] mt-[120px] mb-[380px]'>
 			<div className='flex justify-between items-center w-full'>
