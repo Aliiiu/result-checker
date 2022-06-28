@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import CheckerPage from './component/CheckerPage';
+import Header from './component/Header';
+import Login from './component/Login';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+	const logoutHandler = () => {
+		setIsLoggedIn(false);
+	};
+
+	const loginHandler = (studentId: string, studentPin: string) => {
+		if (
+			studentId.toUpperCase() === 'ABC/2022/108' &&
+			studentPin.toUpperCase() === '12345'
+		) {
+			setIsLoggedIn(true);
+		}
+	};
+	return (
+		<div>
+			<div className='container'>
+				<Header onLogout={logoutHandler} isAuthenticated={isLoggedIn} />
+			</div>
+			<main>
+				<div className='mainBg'>
+					<div className='container'>
+						{!isLoggedIn && <Login onLogin={loginHandler} />}
+					</div>
+				</div>
+				<div>{isLoggedIn && <CheckerPage />}</div>
+			</main>
+		</div>
+	);
 }
 
 export default App;

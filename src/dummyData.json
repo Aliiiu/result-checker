@@ -1,0 +1,132 @@
+[
+	{
+		"id": 1,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 2,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 3,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 4,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 5,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 6,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 7,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 8,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 9,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	},
+	{
+		"id": 10,
+		"subject": "civic education",
+		"Term score": {
+			"cat": 100,
+			"exam": 100,
+			"total": 100
+		},
+		"1st summary": "",
+		"2nd summary": "",
+		"grade": "B",
+		"remarks": "very good"
+	}
+]
