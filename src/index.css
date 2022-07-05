@@ -42,29 +42,11 @@ h6 {
 	color: #06042c;
 }
 
-/* th,
-td {
-	border: 1px solid #06042c;
-	text-align: center;
-	padding: 8px;
-}
-
-table {
-	border-radius: 8px;
-	border-collapse: separate;
-	border-spacing: 0px;
-	overflow: hidden;
-} */
-
 table td,
 table th {
 	padding: 0.5rem;
 	text-align: center;
 }
-/*
- * Add the border, set border spacing etc
- * The left width is 0 so cell border can be applied without doubling up.
- */
 
 .table-bordered {
 	border: 1px solid #06042c;

@@ -54,9 +54,9 @@ const Login: FC<{ onLogin: any }> = (props) => {
 
 	return (
 		<div className='flex items-center justify-center min-h-screen'>
-			<div className='card w-[35%] max-w-[540px] '>
-				<h2 className='text-center font-semibold mb-[25px] text-[32px]'>
-					STUDENT LOGIN
+			<div className='card w-[80%] md:w-[50%] lg:w-[35%] md:max-w-[540px] '>
+				<h2 className='text-center font-semibold mb-[25px] md:text-[32px]'>
+					RESULT CHECKER
 				</h2>
 				<form onSubmit={submitHandler}>
 					<div className='flex flex-col'>
@@ -73,7 +73,7 @@ const Login: FC<{ onLogin: any }> = (props) => {
 								studentInputIsInValid ? 'border-red-400' : 'border-black'
 							} rounded-[8px] bg-white`}
 						>
-							<TbUser className='text-[25px] ml-[24px]' />
+							<TbUser className='md:text-[25px] text-[30px] ml-[15px] md:ml-[24px]' />
 							<input
 								type='text'
 								placeholder='1258464'
@@ -81,7 +81,7 @@ const Login: FC<{ onLogin: any }> = (props) => {
 								onBlur={studentInputBlurHandler}
 								value={enteredStudentID}
 								name='studentId'
-								className='placeholder-black rounded-tr-[8px] rounded-br-[8px] flex-1 py-[12px] px-[12px] outline-none'
+								className='placeholder-black rounded-tr-[8px] rounded-br-[8px] w-[80%] md:w-full flex-1 py-[12px] px-[12px] outline-none'
 							/>
 						</div>
 						{studentInputIsInValid && (
@@ -104,7 +104,7 @@ const Login: FC<{ onLogin: any }> = (props) => {
 								examInputIsInValid ? 'border-red-400' : 'border-black'
 							} rounded-[8px] bg-white`}
 						>
-							<BiLock className='text-[25px] ml-[24px]' />
+							<BiLock className='md:text-[25px] text-[30px] ml-[15px] md:ml-[24px]' />
 							<input
 								type='text'
 								placeholder='*********'
@@ -112,7 +112,7 @@ const Login: FC<{ onLogin: any }> = (props) => {
 								onBlur={examInputBlurHandler}
 								value={enteredPin}
 								name='examId'
-								className='placeholder-black rounded-tr-[8px] rounded-br-[8px] flex-1 py-[12px] px-[12px] outline-none'
+								className='placeholder-black rounded-tr-[8px] rounded-br-[8px] w-[80%] md:w-full flex-1 py-[12px] px-[12px] outline-none'
 							/>
 						</div>
 						{examInputIsInValid && (

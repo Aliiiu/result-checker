@@ -6,16 +6,16 @@ interface THeader {
 }
 const Header = ({ isAuthenticated, onLogout }: THeader) => {
 	return (
-		<header className='px-[123px] header_shadow py-[15px] bg-white'>
-			<div className='flex items-center justify-between'>
-				<h4 className='text-[24px] text-[#0075FF] font-bold'>
-					Our Savior International School
+		<header className='px-[24px] md:px-[123px] header_shadow py-[10px] md:py-[15px] bg-white'>
+			<div className='flex flex-row-reverse md:flex-row items-center w-full justify-between'>
+				<h4 className='text-[16px] md:text-[24px] md:w-ful text-[#0075FF] font-bold'>
+					Our Savior <br className='md:hidden' /> International School
 				</h4>
 				<div>
 					<Link to={'/'}>
 						<img
 							src={'/images/logo.png'}
-							className='relative h-[53px] w-[105px]'
+							className='relative h-[53px] object-contain w-[85px] md:w-[105px]'
 							alt='Flip logo'
 						/>
 					</Link>
